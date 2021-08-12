@@ -1,34 +1,84 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Projeto do zero com ChakraUI - WorldTrip
 
-## Getting Started
+### Installation
 
-First, run the development server:
+Dillinger requires [Node.js](https://nodejs.org/) v14+ to run.
 
-```bash
-npm run dev
-# or
-yarn dev
+Instalando as dependências de desenvolvimento para executar o sistema
+
+Executando aplicação :rocket:
+
+```sh
+$ cd ignite-worldtrip
+$ yarn
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Executando API fake :rocket:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```sh
+$ yarn server
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### Plugins
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Dependências utilizadas para o desenvolvimento.
 
-## Learn More
+| Dependencies       | devDependencies    |
+| ------------------ | ------------------ |
+| @chakra-ui/core    | @types/node        |
+| @chakra-ui/react   | @types/react       |
+| @emotion/react     | eslint             |
+| @emotion/styled    | eslint-config-next |
+| framer-motion      | typescript         |
+| next               |                    |
+| react              |                    |
+| react-circle-flags |                    |
+| react-dom          |                    |
+| react-icons        |                    |
+| sass               |                    |
+| swiper             |                    |
 
-To learn more about Next.js, take a look at the following resources:
+### Pages
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+#### /
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![home-1](https://user-images.githubusercontent.com/38146739/129199919-ea956539-85e8-4b54-ae65-44ee53c837cd.png)
+![home-2](https://user-images.githubusercontent.com/38146739/129199997-b39e7f8b-d19f-4777-8891-64247c8ce047.png)
 
-## Deploy on Vercel
+#### /north-america
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![continent-1](https://user-images.githubusercontent.com/38146739/129200078-f50b59ee-74fa-4eb2-8db4-1c1f6a9d9a2a.png)
+![continent-2](https://user-images.githubusercontent.com/38146739/129200092-32dce5d6-3cd1-4535-a84a-843631c952f1.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Todos
+
+- Write MORE Tests
+- Add Night Mode
+
+## License
+
+MIT
+
+**Free Software, Hell Yeah!**
+
+[//]: # "These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax"
+[dill]: https://github.com/joemccann/dillinger
+[git-repo-url]: https://github.com/joemccann/dillinger.git
+[john gruber]: http://daringfireball.net
+[df1]: http://daringfireball.net/projects/markdown/
+[markdown-it]: https://github.com/markdown-it/markdown-it
+[ace editor]: http://ace.ajax.org
+[node.js]: http://nodejs.org
+[twitter bootstrap]: http://twitter.github.com/bootstrap/
+[jquery]: http://jquery.com
+[@tjholowaychuk]: http://twitter.com/tjholowaychuk
+[express]: http://expressjs.com
+[angularjs]: http://angularjs.org
+[gulp]: http://gulpjs.com
+[pldb]: https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md
+[plgh]: https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md
+[plgd]: https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md
+[plod]: https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md
+[plme]: https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md
+[plga]: https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md
