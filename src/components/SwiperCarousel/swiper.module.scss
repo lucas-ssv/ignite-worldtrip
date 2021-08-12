@@ -1,0 +1,12 @@
+.swipperWrapper {
+  button,
+  [role="button"] {
+    color: #ffba08;
+  }
+
+  span[role="button"] {
+    background: #ffba08;
+    height: 16px;
+    width: 16px;
+  }
+}
